@@ -27,9 +27,9 @@ image = Image.open('images/logo.png')
 st.image(image, use_column_width= True)
 
 st.write('''
-# Cyberbulling Tweet Recognition App
+# Cyberbulling Tweet Recognition - Ứng dụng nhận diện bắt nạt trực tuyến qua dòng Tweet
 
-This app predicts the nature of the tweet into 6 Categories.
+Ứng dụng này dự đoán tính chất của dòng Tweet vào 1 trong 6 mục:
 * Age
 * Ethnicity
 * Gender
