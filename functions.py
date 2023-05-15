@@ -103,7 +103,7 @@ def custom_input_prediction(text):
     # to use this function we will need to define vectoriser first 
     vectoriser = pickle.load(open("tdf_vectorizer", "rb"))
     text = vectoriser.transform(text)
-    model = pickle.load(open("model.pkl", "rb"))
+    model = pickle.load(open("model.bin", "rb"))
     prediction = model.predict(text)
     prediction = prediction[0]
 
